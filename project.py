@@ -4,7 +4,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-URL ="https://www.codewithharry.com/"
+URL ="https://zippy-biscuit-1649d0.netlify.app/"
 r = requests.get(URL)
 value = r.content
 
